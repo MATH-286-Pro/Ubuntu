@@ -19,7 +19,7 @@
 |cd..            |回到上级文件夹  |
 |sudo dpkg -i 文件名.deb|安装deb文件|
 |`tab`           |自动补齐|
-|`ctrl`+`alt`+T  |打开 Terminal|
+|`ctrl`+`alt`+`T`  |打开 Terminal|
 |qq &            |启动 QQ🐧|
 
 ### Ubuntu 个人内存管理
@@ -27,5 +27,10 @@
   - Windows
     - 磁盘0 C盘
     - 磁盘1 D盘 E盘
-  - Ubuntu 22.04
-  - Ubuntu 20.04
+  - Ubuntu 22.04 (500G)
+    - linux-swap
+    - / 根挂载目录
+  - Ubuntu 20.04 (D盘 90G)
+    - 10G linux-swap
+    - 30G /,/var/snap 
+    - 51G /home 
