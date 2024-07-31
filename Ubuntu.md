@@ -1,4 +1,4 @@
-# Ubuntu 安装记录
+# Ubuntu 安装+磁盘 记录
 
 ## Ubuntu 版本
 - 22.04 Jammy Jellyfish
@@ -17,14 +17,16 @@
   - Windows
     - 磁盘0 C盘
     - 磁盘1 D盘 E盘
-  - Ubuntu 22.04 (500G)
-    - 16G linux-swap
-    - 300G / [多数软件安装位置]
-    - 200G /home [重装Ubuntu，数据不受影响]
-  - Ubuntu 20.04 (D盘 90G)
-    - 10G linux-swap
-    - 30G /,/var/snap 
-    - 51G /home 
+  - Ubuntu 20.04 (500G)
+    - 500M sda8 引导区
+    - 16G sda9 linux-swap
+    - 300G sda10 / [多数软件安装位置]
+    - 200G sda11 /home [重装Ubuntu，数据不受影响]
+  - Ubuntu 22.04 (D盘 90G)
+    - 400M sda4 引导区
+    - 10G sda5 linux-swap
+    - 30G sda6 /,/var/snap 
+    - 51G sda7 /home 
 
 ## Ubuntu 系统分区
 |名称                 |作用|类型|建议大小|
