@@ -1,0 +1,126 @@
+ls
+
+whoami 查看当前用户名
+
+ctrl + X 退出文本编辑器
+ctrl + C 终止当前命令
+
+cp /etc/apt/sources.list old_sources.list
+
+知乎帖子
+	https://zhuanlan.zhihu.com/p/146545159
+
+安装WSL经验
+	使用CMD可以使用 wsl --install 命令
+	wsl --install
+	wsl --update
+	wsl --status
+	wsl --version
+	wsl --shutdown
+	wsl --list 查看现有系统 (用于检查是否卸载干净)
+	wsl --unregister Ubuntu-22.04 删除
+
+查看安装 Ubuntu 版本 (在Ubuntu终端中输入)
+	lsb_release -a
+
+更换镜像源 (https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
+	sudo vi /etc/apt/sources.list
+
+更换镜像源 后刷新
+	sudo apt update -y && sudo apt full-upgrade -y
+
+安装 axel 加快下载速度
+	sudo apt install axel
+
+安装 apt-fast 加快下载速度 (https://blog.csdn.net/HackEle/article/details/122572418)
+	sudo add-apt-repository ppa:apt-fast/stable
+	sudo apt -y install apt-fast
+	sudo nano /etc/apt-fast.conf	
+
+安装 Gnome
+	前置处理
+	sudo apt purge -y acpid acpi-support modemmanager
+	sudo apt-mark hold acpid acpi-support modemmanager
+	
+	下载并安装 Gnome
+	sudo apt-fast install -y ubuntu-desktop gnome (时间非常久)
+
+	配置 Gnome
+	nano ~/.bashrc
+	export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
+	export LIBGL_ALWAYS_INDIRECT=1
+	
+	启动 Gnome
+	wsl --shutdown
+	gnome-session
+	
+
+开启并修改 SSH 用于远程连接
+	sudo apt-get install openssh-server -y
+	sudo vi /etc/ssh/sshd_config
+	sudo service ssh restart
+	sudo service ssh status
+
+配置ifconfig查询地址
+	sudo service ssh start
+	sudo ufw allow ssh
+	sudo apt-get install net-tools
+	ifconfig
+	192.168.55.148	
+
+配置图形化界面 GUI
+	安装 Gnome 文本编辑器
+	sudo apt install gnome-text-editor -y
+	
+	安装 GIMP (开源光栅图形编辑器)
+	sudo apt install gimp -y
+	(输入 gimp 启动)	
+
+	安装 Nautilus (Gnome桌面文件管理器)
+	sudo apt install nautilus -y
+	(输入 nautilus 启动)
+
+	安装 VLC (开源媒体播放器)
+	sudo apt install vlc -y
+	(输入 vlc 启动)
+
+	安装 X11 (窗口管理系统)
+	sudo apt install x11-apps -y
+	(输入测试启动)
+	(xeyes)
+	(xcalc)
+	
+	安装 octave GUI
+	sudo apt install octave
+	(测试启动)
+	(octave --gui &)
+	
+	安装 xfce4 GUI
+	sudo apt install -y xrdp xfce4 xfce4-goodies
+
+	sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak
+	sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini
+	sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini
+	sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini
+	echo xfce4-session > ~/.xsession
+
+	sudo nano /etc/xrdp/startwm.sh
+	sudo /etc/init.d/xrdp start
+	
+	远程桌面连接
+	localhost:3390
+
+
+安装 Google
+	cd /tmp
+	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	sudo apt install --fix-missing ./google-chrome-stable_current_amd64.deb
+
+编辑文本
+	ESC+i insert模式
+	ESC Shift+; 
+		%d Enter Delete All
+		qw Enter 退出编辑
+		q! Enter 退出编辑 (E212 Can't open file)
+
+
