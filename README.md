@@ -59,3 +59,5 @@
   - 运行 Ubuntu 20.04
 - **2024.7.26 周五**
   - 运行 Issca Gym
+- **2024.7.31 Wednesday**
+  - Able to Issca Gym using GPU
