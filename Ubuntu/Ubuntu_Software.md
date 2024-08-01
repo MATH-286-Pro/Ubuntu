@@ -73,6 +73,15 @@
     命令: flameshot gui
     快捷键: shift + alt + s
 
+## 安装 at (定时自动化工具)
+    sudo apt-get install at
+    sudo systemctl start atd
+    sydo systemctl enable atd
+    echo "sudo shutdown -h now" | at 02:30 (在今天02:30执行电脑关机命令)
+
+    atq (产看排队任务)
+    atrm 1 (取消任务1)
+
 ## 安装 Curl (终端工具)
     sudo snap install curl  # version 8.1.2
 
