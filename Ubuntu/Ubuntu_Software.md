@@ -143,12 +143,12 @@
 
     CUDA 工具 https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local
 
-    安装 Issac Gym
+    安装 Isaac Gym
     下载并解压文件
     进入文件夹 /isscagym/python
     bash ../create_conda_env_rlgpu.sh
 
-    测试 Issac Gym
+    测试 Isaac Gym
     conda activate rlgpu
     cd examples 
     python joint_monkey.py
