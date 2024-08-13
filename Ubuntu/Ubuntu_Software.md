@@ -155,3 +155,18 @@
 
 
 
+## Ubuntu 优化
+[CSDN 开机优化](https://blog.csdn.net/rustwei/article/details/126389070)  
+[cnBlog 开机优化](https://www.cnblogs.com/gaowengang/p/10854042.html)  
+systemd-analyze time #查看开机时间
+systemd-analyze blame #查看各个程序占用开机时间
+systemd-analyze critical-chain #打印核心消耗时间链路
+
+systemctl mask plymouth-quit-wait.service [关闭开机动画]
+systemctl unmask plymouth-quit-wait.service [恢复开机动画]
+
+systemctl list-dependencies --reverse plymouth-quit-wait.service
+
+sudo systemctl edit apt-daily.timer [延迟apt-daily服务]
+
+sudo systemctl disable xxx.service [禁用某服务启动]
