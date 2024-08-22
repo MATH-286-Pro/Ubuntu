@@ -73,3 +73,16 @@
   - JTAG接口焊接
 - **2024.8.13 周二**
   - 开始 Micro Driver 固件烧录
+
+---
+- **2024.8.22 周四**
+  - 测试 ESP 烧录
+  - 14:15 发现连接 ESP 烧录器读取为 ttyACM0 而不是 ttyUSB0
+  - 15:26 使用 `espefuse.py --port /dev/ttyACM0 set_flash_voltage 3.3V` 解决问题，WS2812 发光
+  - 15:46 烧录成功。以下为使用命令
+    - 使用终端进入 master_board/firmware
+    - `source set_esp_idf.bash` 刷新环境变量
+    - `export ESPPORT=/dev/ttyACM0` 将 ttyACM0 端口提供给代码，否则会出现找不到 ttyUSB0 报错
+    - `make flash`
+  - 研究为什么 WS2812 常亮白灯
+

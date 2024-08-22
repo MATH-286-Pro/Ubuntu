@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "D:/Software_Type_B/MinGW/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x86",
+      "defines": [
+        "__CC_ARM",
+        "__IO",
+        "USE_HAL_DRIVER",
+        "STM32F407xx"
+      ],
+      "compilerArgs": [
+        ""
+      ]
+    }
+  ],
+  "version": 4
+}
