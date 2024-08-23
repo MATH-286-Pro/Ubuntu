@@ -75,6 +75,12 @@
   - 开始 Micro Driver 固件烧录
 
 ---
+- **2024.8.20 周二**
+  - 测试 Micro Driver 固件烧录
+  - 需要德州仪器的文件
+  - 烧录显示找不到设备
+  - 同时发现 Micro Driver 上电30s后两个小芯片发热严重
+  - 两块 Micro Driver 有相同问题
 - **2024.8.22 周四**
   - 测试 ESP 烧录
   - 14:15 发现连接 ESP 烧录器读取为 ttyACM0 而不是 ttyUSB0
@@ -85,4 +91,20 @@
     - `export ESPPORT=/dev/ttyACM0` 将 ttyACM0 端口提供给代码，否则会出现找不到 ttyUSB0 报错
     - `make flash`
   - 研究为什么 WS2812 常亮白灯
+  - `sudo apt install net-tools` 安装网络工具
+  - 随便一个终端中输入 `ifconfig` 检查网络设置
 
+- **2024.8.23 周五**
+  - 检查 Micro Driver 元器件极性
+  - 16:00 芯片+但电容元器件 极性正确
+  - 17:04 查找 LED 亮灯与状态关系
+  - 再次尝试 Code Composer Studio (类似Keil的IDE-集成开发环境 )
+  -   Workspace 默认就行
+      1. 打开文件 File -> Open Projects from File System -> Directory -> `dual_motor_torque_ctrl_spi` -> Finish (替代选项)
+      2. 编译文件 Project -> Build All (编译要一段时间)
+      3. 调试文件 Run -> Debug
+      4. 烧录文件 Run -> Load
+  - 18:34 发现问题，根据报错 `Texas Instruments XDS100V2 USB Emulator_0/C28XX : Target must be connected before loading program`
+    - 通过 View -> Target Configuration -> New Target Configuration File 发现
+    - 若烧录器选择 SEGGER-JLINK，则只有一个目标芯片 EVMDMRX45X
+    - 若烧录器选择 XDS100V2，则有一堆目标芯片，包括各种 TMS 芯片
