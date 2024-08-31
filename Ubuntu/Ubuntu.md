@@ -27,6 +27,11 @@
     - 10G sda5 linux-swap
     - 30G sda6 /,/var/snap 
     - 51G sda7 /home 
+- **Dell Precision 3591 工作站**
+  - 500M 引导区
+  - 64G  linux-swap
+  - 300G /
+  - 200G /home
 
 ## Ubuntu 系统分区
 |名称                 |作用|类型|建议大小|
@@ -82,3 +87,7 @@
 |google-chrome|/usr/bin/google-chrome|
 |qq           |/usr/bin/qq|
 |gparted      |/usr/sbin/gparted|
+
+## 常见问题
+### Ubuntu 安装时 找不到压缩卷
+### Dell 安装 Ubuntu BIOS 设置 [官方网址](https://www.dell.com/support/kbdoc/en-us/000131655/how-to-install-ubuntu-linux-on-your-dell-pc#BIOS)
