@@ -32,16 +32,16 @@
 ## 软件安装
 ## 安装 Git
 	sudo apt-get install git -y
-
+    (使用 git bash 配置)
     1 Git 本地端设置
 
         1.1 基本配置
-        git config --global user.name "用户名" (配置用户名
-        git config --global user.email "邮箱" (配置邮箱)
+        git config --global user.name "用户名" (配置用户名)(随便写)
+        git config --global user.email "邮箱" (配置邮箱)(随便写)
         git config --list (检查信息是否正确)
 
         1.2 密钥配置
-        ssh-keygen -t rsa -b 4096 -C "邮箱"
+        ssh-keygen -t rsa -b 4096 -C "邮箱" (改邮箱需要与上面填写的保持一致)
 
     2 Git 网络端配置
 
