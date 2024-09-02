@@ -7,7 +7,7 @@
 ## Ubuntu 安装步骤
 - 下载对应版本 `Ubuntu` [华为镜像源下载](http://repo.huaweicloud.com/ubuntu-releases/)
   - `ubuntu-20.04.6-desktop-amd64.iso  4.1GB`
-- 使用 `Rufus` 烧录至U盘(不要使用SD卡，根据测试SD无法被系统识别)
+- 使用 `图吧工具箱->Rufus` 烧录至U盘(不要使用SD卡，根据测试SD无法被系统识别)
   - 不需要更改 `Rufus` 设置
 - 在需要安装 `Ubuntu` 的电脑中划分内存
 - 出现 Dell 标志狂按 F12 进入 Boot

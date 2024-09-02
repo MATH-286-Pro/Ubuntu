@@ -108,3 +108,19 @@
     - 通过 View -> Target Configuration -> New Target Configuration File 发现
     - 若烧录器选择 SEGGER-JLINK，则只有一个目标芯片 EVMDMRX45X
     - 若烧录器选择 XDS100V2，则有一堆目标芯片，包括各种 TMS 芯片
+---
+- **2024.8.31 (切换为瑞士时间)**
+  - 尝试在 Dell-Precision-3591 安装 Ubuntu 20.04
+  - 发现 Dell 上的 Ubuntu 无法识别500G压缩卷
+  - 推测为 安装盘制作 为MBR格式，而非GPT格式 导致的问题
+  - Dell-Precision-3591 为UEFI
+- **2024.9.1**
+  - 小感冒
+  - 鉴定为睡觉时被风吹得
+  - 不咳嗽，不流鼻涕，但是嗓子不舒服，有痰
+  - 瑞士麦当劳没有英语菜单，但是有法语，德语，意大利语
+---
+- **2024.9.2**
+  - 使用图吧工具箱->rufus 重新制作 GPT 格式的 Ubuntu 20.04 安装盘
+  - GPT 格式依旧无法识别500G压缩卷
+  - 12:47 询问客服中
