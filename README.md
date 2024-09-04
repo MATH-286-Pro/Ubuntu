@@ -114,13 +114,21 @@
   - 发现 Dell 上的 Ubuntu 无法识别500G压缩卷
   - 推测为 安装盘制作 为MBR格式，而非GPT格式 导致的问题
   - Dell-Precision-3591 为UEFI
-- **2024.9.1**
+- **2024.9.1 周日**
   - 小感冒
   - 鉴定为睡觉时被风吹得
   - 不咳嗽，不流鼻涕，但是嗓子不舒服，有痰
   - 瑞士麦当劳没有英语菜单，但是有法语，德语，意大利语
 ---
-- **2024.9.2**
+- **2024.9.2 周一**
   - 使用图吧工具箱->rufus 重新制作 GPT 格式的 Ubuntu 20.04 安装盘
   - GPT 格式依旧无法识别500G压缩卷
   - 12:47 询问客服中
+- **2024.9.3 周二**
+  - 成功安装 Windows 11 专业工作站版本
+  - 参考视频 
+    - [重装 windows](https://www.bilibili.com/video/BV16h4y1B7md/?vd_source=4c878cdda4a827e2590557bcbb57b3e5)
+    - [激活工作站专业版 win11](https://www.bilibili.com/video/BV18H4y1w7GR/?spm_id_from=333.788.top_right_bar_window_default_collection.content.click&vd_source=4c878cdda4a827e2590557bcbb57b3e5)
+- **2024.9.4 周三**
+  - 成功安装 Ubuntu 20.04 
+  - 使用 Ventoy 制作多系统安装U盘

@@ -9,6 +9,7 @@
   - `ubuntu-20.04.6-desktop-amd64.iso  4.1GB`
 - 使用 `图吧工具箱->Rufus` 烧录至U盘(不要使用SD卡，根据测试SD无法被系统识别)
   - 不需要更改 `Rufus` 设置
+- 或者使用 Ventoy 制作多系统启动U盘
 - 在需要安装 `Ubuntu` 的电脑中划分内存
 - 出现 Dell 标志狂按 F12 进入 Boot
 
@@ -31,7 +32,7 @@
   - 500M 引导区
   - 64G  linux-swap
   - 300G /
-  - 200G /home
+  - 150G /home
 
 ## Ubuntu 系统分区
 |名称                 |作用|类型|建议大小|
