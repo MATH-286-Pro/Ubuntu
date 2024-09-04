@@ -12,6 +12,7 @@
 - 或者使用 Ventoy 制作多系统启动U盘
 - 在需要安装 `Ubuntu` 的电脑中划分内存
 - 出现 Dell 标志狂按 F12 进入 Boot
+- [调整双系统启动优先级](https://blog.csdn.net/qianxiao_anran/article/details/132514541)
 
 ## Ubuntu 个人内存管理
 - **Dell Precision 3530 工作站**
