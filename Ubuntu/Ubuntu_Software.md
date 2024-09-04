@@ -88,12 +88,12 @@
 ## 安装 VScode
 - [启用右键打开文件夹](https://blog.csdn.net/qq2399431200/article/details/119304792)
 
-## 安装 Wine (Linux 模拟 Windows)
+<!-- ## 安装 Wine (Linux 模拟 Windows)
 - [Wine 官网](https://www.winehq.org/)  
 - [Wine Ubuntu 版本](https://wiki.winehq.org/Ubuntu_zhcn)
 ```
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/focal/winehq-focal.sources  
-```
+``` -->
 
 ## 安装 新终端
 
