@@ -8,8 +8,8 @@
         q! Enter 退出编辑 (E212 Can't open file)
         wq Enter 
 
-## 更换镜像源 后刷新  
-	sudo apt update -y && sudo apt full-upgrade -y
+	sudo apt update -y && sudo apt full-upgrade -y 
+    (更换源后刷新)
 
 ## 开启小键盘
     sudo apt install numlockx
@@ -52,6 +52,9 @@
 ## 安装 Python
     sudo apt install python3-pip -y
 
+## 安装 中文输入法
+    sudo apt install ibus ibus-pinyin
+
 ## 安装 Cisco (VPN)
 	cd 下载 (进入对应下载目录)  
 	sudo dpkg -i cisco...  
@@ -67,11 +70,18 @@
     sudo add-apt-repository ppa:umang/indicator-stickynotes
     sudo apt-get update && sudo apt-get install -y indicator-stickynotes
 
-## 安装 flameshot (截图软件)
+<!-- ## 安装 flameshot (截图软件)
     sudo apt install flameshot -y
-    在设置 键盘 处添加快捷键
+    在设置 键盘(Keyboard) -> Keyboard Shortcuts -> Custom Shortcut 处添加快捷键
     命令: flameshot gui
+    快捷键: shift + alt + s -->
+
+## 安装 Gnome-Screenshot
+    sudo apt install gnome-screenshot -y
+    在设置 键盘(Keyboard) -> Keyboard Shortcuts -> Custom Shortcut 处添加快捷键
+    命令: gnome-screenshot --area
     快捷键: shift + alt + s
+    [参考网址](https://linux.cn/article-15512-1.html)
 
 ## 安装 at (定时自动化工具)
     sudo apt-get install at

@@ -4,6 +4,10 @@
 sudo apt update -y && sudo apt full-upgrade -y
 echo "System update and full upgrade completed."
 
+# 安装中文输入法
+sudo apt install ibus ibus-pinyin
+echo "Pin Yin installation complete."
+
 # 开启小键盘
 sudo apt install numlockx -y
 echo -e "\nif [ -x /usr/bin/numlockx ]; then\n  /usr/bin/numlockx on\nfi" | sudo tee -a /etc/gdm3/Init/Default
@@ -27,9 +31,14 @@ sudo apt-get update
 sudo apt-get install -y indicator-stickynotes
 echo "Indicator Stickynotes installation completed."
 
-# 安装 flameshot (截图软件)
-sudo apt install flameshot -y
-echo "Flameshot installation completed."
+# # 安装 flameshot (截图软件)
+# sudo apt install flameshot -y
+# echo "Flameshot installation completed."
+
+# 安装 gnome-screenshot(截图软件)
+sudo apt install gnome-screenshot -y
+echo "Gnome-screenshot installation completed."
+
 
 # 安装 at (定时自动化工具)
 sudo apt-get install at -y
@@ -47,4 +56,4 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install --fix-missing ./google-chrome-stable_current_amd64.deb -y
 echo "Google Chrome installation completed."
 
-echo "Script execution completed. Please manually complete any additional configurations if necessary."
+echo "Script execution completed. Please restart your Ubuntu."
