@@ -139,4 +139,4 @@
   - try Ubuntu 22.04 发现有网络
   - 重装为 Ubuntu 22.04
   - 使用 bash 一键配置 Ubuntu 成功
-  - 
+  - 成功启动 legged-gym
