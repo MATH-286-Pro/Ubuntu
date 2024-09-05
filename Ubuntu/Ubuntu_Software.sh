@@ -50,6 +50,7 @@ echo "At installation and service setup completed."
 sudo snap install curl
 echo "Curl installation completed."
 Download
+
 # 安装 Google Chrome
 cd ~/Downloads/  # 假设你将文件下载到了默认的下载目录中
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

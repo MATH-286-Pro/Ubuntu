@@ -96,7 +96,8 @@
     sudo snap install curl  # version 8.1.2
 
 ## 安装 VScode
-- [启用右键打开文件夹](https://blog.csdn.net/qq2399431200/article/details/119304792)
+- [启用二级菜单右键打开文件夹](https://blog.csdn.net/qq2399431200/article/details/119304792)
+- [右键 Open in Code](https://askubuntu.com/questions/1049111/add-open-with-vs-code-to-context-menu-in-ubuntu)
 
 <!-- ## 安装 Wine (Linux 模拟 Windows)
 - [Wine 官网](https://www.winehq.org/)  
