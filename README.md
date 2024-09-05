@@ -135,3 +135,7 @@
   - 发现 Ubuntu 没有网络选项
   - 等待技术客服回答
   - try ubuntu 同样没有网络
+- **2024.9.5 周四**
+  - try Ubuntu 22.04 发现有网络
+  - 重装为 Ubuntu 22.04
+  - 使用 bash 一键配置 Ubuntu 成功
