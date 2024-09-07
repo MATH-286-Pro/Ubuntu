@@ -1,0 +1,20 @@
+# EPFL 机械硕士 选课
+
+## 学分 Credits
+- 74 ECTS 课程学分
+  - 44 ECTS
+  - 30 ECTS
+
+- 10 ECTS 学期项目 Semester Project
+- 30 ECTS 硕士论文 Master Thesis
+- 6 ECTS 人文课 SHS
+
+## 方向 Specialization
+- 自动化 Automatic and systems (B类)
+
+## 注意事项
+- 如果选了 Minor， 那么30学分只能在 Minor 的课表中选
+
+## 课程评价网站
+- [网站链接](https://docs.google.com/spreadsheets/u/0/d/1icSqXjFrdsBWoarRNEawpNM42gwJANYs85WS8SPkfZY/htmlview?pli=1) 往届中国学生对课程的评价 (EPFL账号登陆) 
+- [网站链接](https://www.coursefinder.ch/) EPFL学生对课程的评价 
