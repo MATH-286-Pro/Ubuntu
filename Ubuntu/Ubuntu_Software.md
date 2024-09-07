@@ -134,47 +134,6 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 	sudo apt install --fix-missing ./google-chrome-stable_current_amd64.deb
 
-## 安装 Issca Gym
-    前置条件
-    **conda**
-	cd 下载 (进入下载文件夹)
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-    bash Miniconda3-latest-Linux-x86_64.sh
-    ~/miniconda3/bin/conda init
-    source ~/.bashrc
-
-    通过 conda 安装 Python 
-    conda activate rlgpu
-    conda install python=3.7
-    conda install numpy
-    conda install -c anaconda libpython
-
-    安装其他依赖库
-    conda install -c conda-forge cudatoolkit
-    conda install -c conda-forge cudnn
-
-    安装 cuda
-    sudo apt install nvidia-cuda-toolkit -y
-    nvcc --version (检查是否安装成功)
-
-    更新 Cuda 驱动
-    lspci | grep -i nvidia (查看自己的N卡)
-        `01:00.0 3D controller: NVIDIA Corporation GP107GLM [Quadro P600 Mobile] (rev a1)`
-
-
-    CUDA 工具 https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local
-
-    安装 Isaac Gym
-    下载并解压文件
-    进入文件夹 /isscagym/python
-    bash ../create_conda_env_rlgpu.sh
-
-    测试 Isaac Gym
-    conda activate rlgpu
-    cd examples 
-    python joint_monkey.py
-
-
 
 ## Ubuntu 优化
 [CSDN 开机优化](https://blog.csdn.net/rustwei/article/details/126389070)  
