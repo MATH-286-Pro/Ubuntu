@@ -18,3 +18,6 @@
 ## 常用快捷键
 - `win` + `tab` 切换窗口
 - `shift` + `win` + `←` 窗口移动
+
+## 获取壁纸
+检查 -> sl-media-container-wrapper -> media-container -> backgroud-image
