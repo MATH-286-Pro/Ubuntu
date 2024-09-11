@@ -1,4 +1,4 @@
-# Model Predictive Control 模型预测控制 (MPC)
+# [ME-425] Model Predictive Control 模型预测控制
 
 ## Week 1 第一周
 
