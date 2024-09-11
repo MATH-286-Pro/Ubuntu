@@ -11,10 +11,15 @@
   - Python 代码
   - 4 页 Report
 - 60% Fina Exam
+  - 闭卷考试
+  - 可带一张 cheatsheet 双面A4
+  - 橡皮 + 铅笔
 
 
 ## 课程文件
-- https://github.com/epfml/ML_course/tree/main/lectures  
+- [Github 课程链接 包含课件](https://github.com/epfml/ML_course/tree/main/lectures)  
+- [EPFL 课程链接 包含课件 计划](https://www.epfl.ch/labs/mlo/machine-learning-cs-433/)
+- [EPFL 视频链接](https://mediaspace.epfl.ch/channel/CS-433+Machine+learning/55647)
 - 课件+视频 都可以在 Github 上找到
 
 
@@ -27,8 +32,20 @@
 
 
 ## 课程记录
+- Lecture 1 2024.9.10
+  - lecture01a_intro.pdf 课程介绍
+  - lecture01b_regression.pdf 
+    - Regression 回归
+      - 用于将输入与输出产生关联
+      - D = dimensionality
+      - N = data size
+      - 相关性 ≠ 因果性 [神奇关系小网站](https://tylervigen.com/spurious-correlations)
 - Lecture 2 2024.9.11
-  - Multivariable liner regression 多变量线性回归
+  - lecture01c_linear_regression.pdf
+    - Multivariable linear  regression 多变量线性回归
+      - Overparameterization - or the D>N issue
+  - lecture01d_loss_functions.pdf
+    - Loss/Cost function 损失函数
 
 
 
