@@ -21,3 +21,8 @@
 
 ## 获取壁纸
 检查 -> sl-media-container-wrapper -> media-container -> backgroud-image
+
+## 关于国外安装 Jupyter
+- 在瑞士使用 pip install jupyter 直接安装发现极其缓慢
+- 于是尝试 pip install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple
+- 发现还挺快

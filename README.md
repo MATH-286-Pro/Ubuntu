@@ -1,3 +1,10 @@
+# 文件说明
+- EPFL-Course 用于记录课程信息+课程进度
+- Ubuntu 用于记录 Ubuntu 系统的使用
+- Windows 用于记录 Windows 系统的使用
+- Icon 为文件夹图标
+- Embedded 记录嵌入式内容
+
 # 记录日志
 
 - **2024.7.5 周五**
@@ -124,8 +131,7 @@
   - 使用图吧工具箱->rufus 重新制作 GPT 格式的 Ubuntu 20.04 安装盘
   - GPT 格式依旧无法识别500G压缩卷
   - 12:47 询问客服中
-- **2024.9.3 周二**
-  - 成功安装 Windows 11 专业工作站版本
+- **2024.9.3 周二**  - 成功安装 Windows 11 专业工作站版本
   - 参考视频 
     - [重装 windows](https://www.bilibili.com/video/BV16h4y1B7md/?vd_source=4c878cdda4a827e2590557bcbb57b3e5)
     - [激活工作站专业版 win11](https://www.bilibili.com/video/BV18H4y1w7GR/?spm_id_from=333.788.top_right_bar_window_default_collection.content.click&vd_source=4c878cdda4a827e2590557bcbb57b3e5)
@@ -151,3 +157,12 @@
   - 学习 MPC 代价函数
   - 安装 MATLAB
   - 要使用 iphone 的 USB 传输个人热点，需要给 windows 安装 iTune
+- **2024.9.11 周三**
+  - 成功使用 pybullet 完成 practical4_hopping.py 任务
+  - 使用 python debug 才发现文件4会自动执行文件2的参数
+- **2024.9.12 周四**
+  - 又把公交705做错成702了
+  - VScode 运行 Jupyter select kernel 列表是空的
+  - 发现原来是 VScode 版本过低，需要 1.93.0 版本
+  - 升级 VScode 后继续使用 pip install matplotlib 安装
+  - 至此 CS-433 execise 可以正常运行
