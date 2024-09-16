@@ -166,3 +166,8 @@
   - 发现原来是 VScode 版本过低，需要 1.93.0 版本
   - 升级 VScode 后继续使用 pip install matplotlib 安装
   - 至此 CS-433 execise 可以正常运行
+- **2024.9.16 周一**
+  - VSCode Docker 插件找不到容器
+  - 重启 Ubuntu 解决问题
+  - 根据测试 rosdep install -y --rosdistro humble --from-paths . --ignore-src
+  - 这行命令在新安装的 Ubuntu ROS2 Humble 中也会有问题
