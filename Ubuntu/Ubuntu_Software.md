@@ -134,6 +134,10 @@ sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/
 	wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 	sudo apt install --fix-missing ./google-chrome-stable_current_amd64.deb
 
+## 安装 Onenote [参考网址](https://blog.csdn.net/m0_38068229/article/details/109090379)
+sudo snap install p3x-onenote  
+
+p3x-onenote (启动 onenote)
 
 ## Ubuntu 优化
 [CSDN 开机优化](https://blog.csdn.net/rustwei/article/details/126389070)  
