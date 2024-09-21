@@ -32,7 +32,7 @@
 
 
 ## 课程记录
-- **Lecture 1 2024.9.10**
+- **Lecture 1.1 2024.9.10**
   - **lecture01a_intro.pdf**
   - **lecture01b_regression.pdf**
     - Regression 回归
@@ -40,7 +40,7 @@
       - D = dimensionality
       - N = data size
       - 相关性 ≠ 因果性 [神奇关系小网站](https://tylervigen.com/spurious-correlations)
-- **Lecture 2 2024.9.11**
+- **Lecture 1.2 2024.9.11**
   - **lecture01c_linear_regression.pdf**
     - Linear regression 线性回归
       - 假设输入输出是线性相关的
@@ -50,6 +50,12 @@
   - **lecture01d_loss_functions.pdf**
     - Loss/Cost function 损失函数
     - [小网站](https://lossfunctions.tumblr.com/)
+- **Lecture 2.1 2024.9.17 周二**
+  - **lecture02a_optimization.pdf**
+    - 局部极值 全局极值
+    - MatrixCalculus.org
+    - 梯度下降
+    - 随机梯度下降 算法 SDG
 
 
 

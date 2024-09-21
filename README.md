@@ -171,3 +171,8 @@
   - 重启 Ubuntu 解决问题
   - 根据测试 rosdep install -y --rosdistro humble --from-paths . --ignore-src
   - 这行命令在新安装的 Ubuntu ROS2 Humble 中也会有问题
+  - 尝试 STM32CubeIDE 生成 C++ 工程
+  - 发现生成不成功
+- **2024.9.17 周二**
+  - 需要登录 STM32CubeIDE 才能使用 C++ 生成工程
+  - 发现生成的还是 C 语言工程
