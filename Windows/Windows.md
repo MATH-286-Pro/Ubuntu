@@ -13,6 +13,11 @@
   - [参考B站视频](https://www.bilibili.com/video/BV1Ku4y137Tj/?vd_source=4c878cdda4a827e2590557bcbb57b3e5)
 - **禁用 Onenote 自带的 Shift + win + s 截图**
   - [参考CSDN]https://blog.csdn.net/qq_45964597/article/details/128248096
+- **任务管理器显示GPU占比**
+  - 参考网址： [Microsoft 官网](https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%99%A8/b8d482ff-7da8-4f31-a1e5-a03ed379a24e)
+  - 右键名称 -> 勾选GPU
+- **白嫖 Office 软件**
+  - 参考教程：[B站](https://www.bilibili.com/video/BV1AztkesEBd/?vd_source=4c878cdda4a827e2590557bcbb57b3e5)
 
 ## 邮件 添加QQ邮箱
 - [参考网址](https://blog.csdn.net/m0_48467204/article/details/117388787)

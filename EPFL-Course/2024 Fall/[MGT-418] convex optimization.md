@@ -13,7 +13,7 @@
 
 
 ## 课程内容
-- 有课程录像
+- 有课程录像 [视频链接 Mediaspace](https://mediaspace.epfl.ch/media/3%2C+MGT-418+++Lecture+3+%282024%29/0_fqage1cp?)
 
 ## 课程记录
 - **2024.9.13 周五**
