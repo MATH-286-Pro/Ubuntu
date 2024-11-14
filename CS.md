@@ -44,3 +44,11 @@
 - **2024.11.4 问题说明**
   - 问题描述：VSCode运行python使用的是全局，但是命令终端中输入 `which python` 显示为 miniconda
   - 问题解决：在环境变量中调整 miniconda 和 全局 python 的顺序，将全局移到前面就行
+- **2024.11.12 问题复现**
+  - 问题描述：输入conda命令就是不执行
+      ```bash
+      $ conda activate convex_env
+      bash: C:\Users\MATH-286-Dell\miniconda3\Scripts: Is a directory
+      ```
+  - 问题原因：使用 conda 创建虚拟环境后，VSCode 自动将其路径下的 Python 选为解释器。然后因为删除掉这个虚拟环境，导致VSCode找不到解释器
+  - 问题解决：使用VSCode打开一个.py文件，在右下角重新选择 python 解释器

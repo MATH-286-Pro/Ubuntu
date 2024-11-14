@@ -207,3 +207,9 @@
     - import torch
     - print(torch.__version__)
     - 输出：2.5.0+cpu
+- **2024.11.14 周四**
+  - FMEL信息更新
+  - 2024.3.31 填写FMEL 入住信息
+  - 2024.8.8 收到过 FMEL 的 分配信息，但是被 Gmail 垃圾邮箱吞了
+  - 根据 FMEL Administration，修改起始入住时间，leasing variance 都不会影响在队伍中的位置
+  - 并且每个 房型 是单独的排队队列
