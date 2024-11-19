@@ -21,13 +21,18 @@
 
 
 ## **Miniconda**
-| 命令                                | 操作                  |
-|-------------------------------------|-----------------------|
-| `conda env list`                    | 查看所有虚拟环境      |
-| `conda list -n <env_name>`          | 查看某个虚拟环境的包  |
-| `conda update -n <env_name> conda`  | 刷新某个虚拟环境      |
-| `which python`                      | 查看当前 Python 路径 |
-
+| 命令                                      | 操作                        |
+|-------------------------------------------|-----------------------------|
+| `conda env list`                          | 查看所有虚拟环境            |
+| `conda create -n <env_name> python=3.12`  | 创建虚拟环境 (指定名称与 Python 版本) |
+| `conda activate <env_name>`               | 激活虚拟环境                |
+| `conda deactivate`                        | 退出虚拟环境                |
+| `conda list -n <env_name>`                | 查看某个虚拟环境的包        |
+| `conda update -n <env_name> conda`        | 刷新某个虚拟环境            |
+| `conda env remove -n <env_name>`          | 删除虚拟环境                |
+| `pip list \| grep <package_name>`         | 查看指定库是否已安装        |
+| `pip install <package_name>`              | 安装指定库                  |
+| `which python`                            | 查看当前 Python 路径        |
 
 
 ## 指定版本

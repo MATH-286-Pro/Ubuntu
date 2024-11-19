@@ -27,4 +27,8 @@
 - `shift` + `win` + `←` 窗口移动
 
 ## 获取壁纸
-检查 -> sl-media-container-wrapper -> media-container -> backgroud-image
+检查 -> sl-media-container-wrapper -> media-container -> backgroud-image  
+`C:\Users\MATH-286-Dell\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles`
+
+## 机械硬盘识别不到
+设备管理器 -> 磁盘驱动器 -> 右键 扫描检测硬件更改
